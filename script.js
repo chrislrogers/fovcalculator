@@ -5,8 +5,8 @@ function calculateFOV() {
     let height = document.getElementById("height").value;
     let horizontalFOV = document.getElementById("horizontalFOV").value;
     let verticalFOV;
-    if (width !== "" && height !== "" && horizontalFOV !== "") {
 
+    if (width !== "" && height !== "" && horizontalFOV !== "") {
 
         // convert to radians
         horizontalFOV = horizontalFOV * (Math.PI / 180);
